@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Quiz JS | Anthony Dinunzio 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Flashcard Quiz App</h1>
+
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="tab-button" onclick="openTab('create-deck')">Create Deck</button>
+            <button class="tab-button" onclick="openTab('create-flashcard')">Create Flashcard</button>
+            <button class="tab-button" onclick="openTab('test-mode')">Test Mode</button>
+            <button class="tab-button" onclick="openTab('quiz-mode')">Quiz Mode</button>
+        </div>
+
+        <!-- Deck Creation Section -->
+        <div id="create-deck" class="tab-content">
+            <h2>Create Deck</h2>
+            <input id="deck-name" type="text" placeholder="Deck Name">
+            <button onclick="addDeck()">Add Deck</button>
+        </div>
+
+        <!-- Flashcard Creation Section -->
+        <div id="create-flashcard" class="tab-content hidden">
+            <h2>Create Flashcard</h2>
+            <select id="deckSelector" onchange="selectDeck()">
+                <option value="">Select a Deck</option>
+            </select>
+            <input id="question" type="text" placeholder="Question">
+            <input id="answer" type="text" placeholder="Answer">
+            <button onclick="addFlashcard()">Add Flashcard</button>
+            <div id="flashcards-container"></div>
+        </div>
+
+        <!-- Test Mode Section -->
+        <div id="test-mode" class="tab-content hidden">
+            <h2>Test Mode</h2>
+            <button onclick="startTest()">Start Test</button>
+            <div id="test-section" class="hidden">
+                <p id="test-question"></p>
+                <input id="test-answer" type="text" placeholder="Your Answer">
+                <button onclick="submitAnswer()">Submit Answer</button>
+                <p id="test-result"></p>
+                <p id="test-timer">Time: 0s</p>
+            </div>
+            <p id="final-score" class="hidden"></p>
+        </div>
+
+        <!-- Quiz Mode Section -->
+        <div id="quiz-mode" class="tab-content hidden">
+            <h2>Quiz Mode</h2>
+            <button onclick="startQuiz()">Start Quiz</button>
+            <div id="quiz-section" class="hidden">
+                <p id="quiz-question"></p>
+                <input id="quiz-answer" type="text" placeholder="Your Answer">
+                <button onclick="submitQuizAnswer()">Submit Answer</button>
+                <button onclick="showHint()">Hint</button>
+                <p id="quiz-result"></p>
+                <p id="quiz-hint" class="hidden"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
