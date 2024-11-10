@@ -1,5 +1,12 @@
 # Flashcard Quiz JS | 2024
 
+---
+
+## Live Demo
+You can explore the live demo of **Flashcard Quiz JS** [here](#https://anthonydinunzioswe.github.io/flashCardsJS) to see the app in action. Feel free to try out the features and test your knowledge using the built-in quiz.
+
+---
+
 ## Overview
 Welcome to **Flashcard Quiz JS**, an interactive and user-friendly flashcard application designed to help users learn and test their knowledge. Built using **HTML**, **CSS**, and **JavaScript**, this project showcases my skills in front-end web development, UI/UX design, and JavaScript functionality.
 
@@ -34,13 +41,6 @@ Throughout the development of **Flashcard Quiz JS**, I faced a few key challenge
 3. **Responsive Design**: I focused on creating a clean, modern, and mobile-friendly design by using CSS flexbox and media queries, ensuring that the app works seamlessly on various screen sizes.
 
 4. **User Feedback and Interactivity**: Implementing real-time feedback for answers---whether correct or incorrect---helped me refine my JavaScript skills in handling user inputs and displaying dynamic content.
-
----
-
-## Live Demo
-You can explore the live demo of **Flashcard Quiz JS** [here](#) to see the app in action. Feel free to try out the features and test your knowledge using the built-in quiz.
-
----
 
 ## Installation and Usage
 
