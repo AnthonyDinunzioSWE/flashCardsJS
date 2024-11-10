@@ -5,6 +5,8 @@
 ## Live Demo
 You can explore the live demo of **Flashcard Quiz JS** [here](https://anthonydinunzioswe.github.io/flashCardsJS) to see the app in action. Feel free to try out the features and test your knowledge using the built-in quiz.
 
+[**Live Demo**](https://anthonydinunzioswe.github.io/flashCardsJS)
+
 ---
 
 ## Overview
@@ -51,7 +53,7 @@ To set up **Flashcard Quiz JS** locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flashcard-quiz-js.git `
+   git clone https://github.com/anthonydinunzioswe/flashcard-quiz-js.git `
 
 1.  Navigate to the project directory:
 
