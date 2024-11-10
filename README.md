@@ -3,7 +3,7 @@
 ---
 
 ## Live Demo
-You can explore the live demo of **Flashcard Quiz JS** [here](#https://anthonydinunzioswe.github.io/flashCardsJS) to see the app in action. Feel free to try out the features and test your knowledge using the built-in quiz.
+You can explore the live demo of **Flashcard Quiz JS** [here](https://anthonydinunzioswe.github.io/flashCardsJS) to see the app in action. Feel free to try out the features and test your knowledge using the built-in quiz.
 
 ---
 
