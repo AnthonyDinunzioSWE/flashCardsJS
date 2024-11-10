@@ -42,6 +42,8 @@ Throughout the development of **Flashcard Quiz JS**, I faced a few key challenge
 
 4. **User Feedback and Interactivity**: Implementing real-time feedback for answers---whether correct or incorrect---helped me refine my JavaScript skills in handling user inputs and displaying dynamic content.
 
+---
+
 ## Installation and Usage
 
 ### Installation
